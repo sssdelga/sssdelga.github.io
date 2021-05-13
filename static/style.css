@@ -1,0 +1,192 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Gafata';
+}
+
+span{
+    color: rgb(88, 236, 255);
+    font-style: italic;
+}
+
+#wrapper{
+    max-width: 1200px;
+    margin: auto;
+}
+h2{
+    margin: 20px;
+    border-bottom: 2px rgb(37, 114, 22) solid;
+    font-size: 24pt;
+}
+h3{
+    font-size: 16pt;
+}
+h4{
+    font-size: 14pt;
+}
+h5{
+    font-size: 12pt;
+}
+ul{
+    list-style: inside circle;
+}
+
+
+    #header{
+        background-color: seashell;
+        color: rgb(37, 114, 22);
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        padding: 10px;
+    }
+    #header img{
+        width: 200px;
+        padding: 20px;
+        margin-left: 50px;
+        display: inline-block;
+        border-radius: 50%;
+        background-color: rgb(37, 114, 22, 0.3);
+    }
+        #header_right{
+            display: inline-block;
+            width: 900px;
+        }
+        #header_right h1{
+            padding: 30px;
+            text-align: center;
+            vertical-align: top;
+            font-size: 36pt;
+        }
+        #header_right ul{
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            align-items: center;
+        }
+        #header_right li{
+            list-style-type: none;
+            font-weight: bolder;
+        }
+        #header_right a{
+            text-decoration: none;
+            color:rgb(37, 114, 22);
+        }
+        #header_right a:hover{
+            color:salmon;
+        }
+
+.resume_info ul{
+    padding-left: 20px;
+}
+
+    .project_block h3{
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .project_block{
+        background-color: rgb(203, 204, 209);
+        padding: 20px;
+        border-bottom: solid white 5px;
+    }
+    .project_block img{
+        margin-bottom: 20px;
+        width: 500px;
+    }
+        .hl_gifs{
+            width: 500px;
+        }
+        .project_info{
+            display: flex;
+            justify-content: space-around;
+            margin-bottom: 20px;
+        }
+        .project_info ul{
+            padding: 30px;
+            background-color: rgba(78, 78, 82, 0.6);
+            border-radius: 20px;
+            color: seashell;
+            display: inline;
+            width: 500px;
+            height: fit-content;
+        }
+
+    .exp_desc{
+        background-color: rgb(203, 204, 209);
+    }
+    #ford img, #dac img, #unf_exp img{
+        width: 200px;
+        margin:auto;
+    }
+    #ford, #dac, #unf_exp{
+        display: flex;
+        justify-content: space-between;
+    }
+    .exp_desc{
+        padding: 20px;
+    }
+    .exp_item{
+        width: 750px;
+    }
+    ul.sublist{
+        list-style: disc inside;
+    }
+    .exp_item p{
+        color: #003179;
+        font-weight:bold;
+    }
+
+    .ed_desc{
+        width: 750px;
+        margin: 0px 20px;
+        padding: 20px 0px;
+    }
+    .ed_desc h3, .exp_desc h3{
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    .ed_desc h4, .exp_desc h4, .exp_desc p{
+        padding-top: 5px;
+        padding-left: 10px;
+    }
+    .ed_desc h5, .exp_desc h5{
+        padding-bottom: 5px;
+        padding-left: 10px;
+    }
+    .ed_desc li{
+        padding: 10px 10px 0px 10px;
+        list-style: inside;
+    }
+    #dojo{
+        display: flex;
+        justify-content: space-between;
+        background-color: #272634;
+        color: #05AAE1;
+        margin-bottom: 20px;
+    }
+    #dojo h4, #dojo h5{
+        background-color: #1F2022;
+        color:white;
+    }
+    #umd{
+        display: flex;
+        justify-content: space-between;
+        background-color: #00274C;
+        color: white;
+        margin-bottom: 20px;
+    }
+    #umd h4, #umd h5{
+        background-color: #FFCB05;
+        color: #00274C;
+    }
+    #unf{
+        display: flex;
+        justify-content: space-between;
+        background-color: #33609E;
+        color: white;
+        margin-bottom: 20px;
+    }
+    #unf h4, #unf h5{
+        background-color: #898B8E;
+        color: white;
+    }
